@@ -76,7 +76,7 @@
 
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s"> 
 
-                  <p>Plan de hosting y dominio</p> 
+                  <p>Plan de Hosting y Dominio</p> 
 
                 </div> 
 
