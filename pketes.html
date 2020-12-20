@@ -1,0 +1,264 @@
+<style type="text/css">
+  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+.snip1464 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px 10px;
+  margin-left: 10px;
+}
+.snip1464 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+.snip1464 .plan {
+  margin: 0px;
+  width: 25%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3) /*#1a1a1a*/;
+}
+.snip1464 .plan:hover i,
+.snip1464 .plan.hover i {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.snip1464 .plan:first-of-type {
+  border-radius: 8px 0 0 8px;
+  border-left: 1px solid #333333;
+}
+.snip1464 .plan:last-of-type {
+  border-radius: 0 8px 8px 0;
+  border-right: 1px solid #333333;
+}
+.snip1464 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.snip1464 header {
+  line-height: 80px;
+  color: #ffffff;
+}
+.snip1464 .plan-title {
+  background-color: #222831;
+  position: relative;
+  margin: 50px 0;
+  padding: 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.snip1464 .plan-title:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #222831 transparent transparent;
+}
+.snip1464 .plan-cost {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 0 20px;
+  text-align: right;
+}
+.snip1464 .plan-price {
+  font-weight: 600;
+  font-size: 2em;
+}
+.snip1464 .plan-type {
+  opacity: 0.8;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.snip1464 .plan-features {
+  padding: 0 0 20px;
+  margin: 0;
+  list-style: outside none none;
+  font-size: 0.9em;
+}
+.snip1464 .plan-features li {
+  padding: 8px 20px;
+}
+.snip1464 .plan-features i {
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.snip1464 .plan-select {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+.snip1464 .plan-select a {
+  background-color: #222831;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+}
+.snip1464 .plan-select a:hover {
+  background-color: #1b8ad8;
+}
+.snip1464 .featured {
+  margin-top: -10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+.snip1464 .featured header {
+  line-height: 90px;
+}
+.snip1464 .featured .plan-select {
+  padding: 30px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .snip1464 .plan {
+    width: 50%;
+  }
+  .snip1464 .plan-title,
+  .snip1464 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1464 .plan-select,
+  .snip1464 .featured .plan-select {
+    padding: 20px;
+  }
+  .snip1464 .featured {
+    margin-top: 0;
+  }
+  .snip1464 .featured header {
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .snip1464 .plan {
+    width: 100%;
+  }
+}
+</style>
+
+<div class="snip1464" >
+  <div class="plan">
+    <header>
+      <h4 class="plan-title" style="color: white;">
+       Web Negocio
+      </h4> 
+      <h4 style="color: #222831; text-align: center;">Se paga por unica vez</h4>
+      <div class="plan-cost"><span class="plan-price" style="font-size: 23px">7000</span><span class="plan-type">/$</span></div>
+    </header> 
+    <ul class="plan-features">
+      <li><i class="ion-checkmark" style="color: #222831"> </i>1 página o sección</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Imágenes (hasta 10)</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Mapa interactivo Goolgle Maps</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Formulario de contacto</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Integración redes sociales</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Alta en buscadores</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Backup del sitio</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Responsive. Adaptado a celulares y tablets</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Puedes personalizar el paquete si deseas agregar paginas etc.</li>
+    </ul>
+    <div class="plan-select"><a href="">Contratar</a></div>
+  </div>
+  <div class="plan">
+    <header>
+      <h4 class="plan-title" style="color: white">
+         Web PyMes
+      </h4>
+      <h4 style="color: #222831; text-align: center;">Se paga por unica vez</h4>
+      <div class="plan-cost"><span class="plan-price" style="font-size: 23px">9500</span><span class="plan-type">/$</span></div>
+    </header>
+    <ul class="plan-features">
+      <li><i class="ion-checkmark" style="color: #222831"> </i>5 páginas o secciones </li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Creación de 7 cuentas de emails ilimitadas</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Slider y Galeria de imágenes / portfolios</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Mapa interactivo Google maps</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Formulario de contacto</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Responsive. Adaptado a celulares y tablets</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Alta en buscadores</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Certificado SSL (sitio seguro,gratis por un año)</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Backup del sitios</li>
+      <li><i class="ion-checkmark" style="color: #222831"> </i>Puedes personalizar el paquete si deseas agregar paginas etc.</li>
+    </ul>
+    <div class="plan-select"><a href="">Contratar</a></div>
+  </div>
+  <div class="plan featured">
+    <header>
+      <h4 class="plan-title" style="color: white;font-size: 23px;">
+        Tienda
+      </h4>
+      <h4 style="color: #222831; text-align: center;">Se paga por unica vez</h4>
+      <div class="plan-cost"><span class="plan-price" style="font-size: 23px">15.000</span><span class="plan-type">/$</span></div>
+    </header>
+    <ul class="plan-features">
+            <li><i class="ion-checkmark" style="color: #222831"> </i>de 1 a 5 paginas</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Autoadministrable + Carrito de Pedido</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Cuenta de email</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Slider y Galeria de imágenes / portfolios</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Mapa interactivo Google maps</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Formulario de contacto</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Integración redes sociales</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Catalogo</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Alta en buscadores</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Base de datos</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Chat Online</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Quitar y agregar productos</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Backup del sitio</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Puedes personalizar el paquete si deseas agregar paginas etc.</li>
+    </ul>
+    <div class="plan-select"><a href="">Contratar</a></div>
+  </div>
+  <div class="plan">
+    <header>
+      <h4 class="plan-title" style="color: white;">
+        Empresas
+      </h4>
+      <h4 style="color: #222831; text-align: center;">Se paga por unica vez</h4>
+      <div class="plan-cost"><span class="plan-price" style="font-size: 23px;">21.000</span><span class="plan-type">/$</span></div>
+    </header>
+    <ul class="plan-features">
+           <li><i class="ion-checkmark" style="color: #222831"> </i>10 páginas o secciones</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Autoadministrable + Carrito de Pedido</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Creación de 10 cuentas de emails</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Slider y Galeria de imágenes / portfolios</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Mapa interactivo Google maps</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Formulario de contacto</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Integración redes sociales</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Retoque fotográfico</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Alta en buscadores</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Certificado SSL  (sitio seguro,gratis por un año)</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Chat Online</li>
+           <li><i class="ion-checkmark" style="color: #222831"> </i>Backup del sitio</li>
+    </ul>
+    <div class="plan-select"><a href="">Contratar</a></div>
+  </div>
+</div>
+<script type="text/javascript">
+ 
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+
+</script>
